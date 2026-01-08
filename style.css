@@ -1,0 +1,66 @@
+/* ===== HOME PAGE DESIGN BASED ON USER IMAGE ===== */
+
+.home-hero {
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.info-section {
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.info-card {
+    width: 260px;
+    height: 180px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+/* ===== GRADIENT HEADER ===== */
+
+.site-header {
+    background: linear-gradient(to right, #b3d4ff, #89c5ff, #6dbaff);
+    padding: 20px 0;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
